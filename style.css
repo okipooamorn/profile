@@ -1,0 +1,236 @@
+/* Colors and fonts */
+body {
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  font-family: Futura;
+  font-size: 12px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: left;
+  color: #9D9D9D;
+
+
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+
+}
+h1 {
+
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #92c5fc;
+
+}
+h2 {
+  color: #E73C7E;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+
+
+h3 {
+  color: #23A6D5;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+}
+
+a {
+  font-family: 'Futura', sans-serif;
+  font-family: Futura;
+  font-size: 12px;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.35;
+  text-decoration: none;
+  color: #6B72E1;
+
+}
+a:hover {
+  color: black;
+}
+
+
+/* Animation Gradient Design */
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes float {
+  0% {
+
+    transform: translatey(0px);
+  }
+  50% {
+
+    transform: translatey(-20px);
+  }
+  100% {
+
+    transform: translatey(0px);
+  }
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+  width: 700px;
+  margin: 80px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+
+  .btn-blue {
+
+    margin-left: auto;
+  margin-right: auto;
+    display: block;
+  }
+
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  margin: 50px 0px;
+  text-align: center;
+}
+.img-header {
+max-width:70%;
+transform: translatey(0px);
+  animation: float 5s ease-in-out infinite;
+}
+
+.img-port {
+width: 170px;
+height: 120px;
+border-radius: 10px;
+box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+
+
+
+
+}
+.btn-blue {
+  background: #7474BF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  font-size: 12px;
+  padding: 15px 20px;
+  border-radius: 70px;
+  width:50%
+
+
+ }
+  .btn-blue:hover {
+  background: #7474BF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;opacity:0.8;
+  color: white;
+  font-size: 12px;
+  width:50%
+  }
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 30px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
